@@ -30,7 +30,7 @@ function CadastroUsuario() {
     useEffect(() => {
         if (userResult.id != 0) {
             navigate("/login")
-            console.log(userResult) // para visualizar informações de login no console de navegador (f12)
+            console.log(userResult) 
         }
     }, [userResult])
 
