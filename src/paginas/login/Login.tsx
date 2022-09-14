@@ -5,7 +5,6 @@ import useLocalStorage from 'react-use-localstorage';
 import { login } from '../../services/Service';
 import UserLogin from '../../models/UserLogin';
 import './Login.css';
-import { toast } from 'react-toastify';
 
 function Login() {
     let navigate = useNavigate();
